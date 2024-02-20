@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>about yahoo kitchen</title>
+    <title>book a table</title>
 
     <!-- LINKS -->
-
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css" />
     <link
@@ -31,7 +30,7 @@
           <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About Us</a></li>
           <li><a href="./menu.html">Menu</a></li>
-          <!-- <li><a href="#">Menu</a></li> -->
+          <!-- <li><a href="#">Gallery</a></li> -->
           <li><a href="./bookatable.html">Book a table</a></li>
           <li><a href="#">Super Combo</a></li>
           <li><a href="#">Contact Us</a></li>
@@ -43,8 +42,8 @@
 
       <!-- ORDER NOW -->
 
-      <div class="order">
-        <h2 class="font-family">ORDER</h2>
+      <div class="order font-family">
+        <h2>ORDER</h2>
         <h2>NOW</h2>
       </div>
 
@@ -62,70 +61,87 @@
     <!-- HEADER //// -->
 
     <!-- CONTENTS -->
-
     <div class="contents">
+      <!-- OVERLAY -->
+
       <div class="overlay hidden"></div>
+
+      <!-- OVERLAY //// -->
+
       <!-- VIEW OF THE ABOUT US PAGE -->
 
       <div class="about-us-view">
         <!-- <img src="./img/14.jpg" alt="" /> -->
       </div>
 
-      <!-- VIEW OF THE ABOUT US PAGE -->
+      <!-- VIEW OF THE ABOUT US PAGE //// -->
 
-      <!-- ABOUT THE RESTAURANT PAGE -->
+      <!-- RESERVATIONS -->
 
-      <div class="about-yahoo">
-        <div class="about-yahoo-col-0">
-          <h1 class="font-family">About Us</h1>
+      <div class="reservation">
+        <div class="reservation-row-0"></div>
+        <div class="reservation-row-1">
+          <h1 class="font-family">Make A Reservation</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+          <form action="">
+            <div class="reservation-form">
+              <label class="label-1" for="name"
+                ><i class="fa-solid fa-circle-user icons"></i>Name</label
+              >
+              <input
+                class="input-1"
+                type="text"
+                name="text"
+                id="name"
+                required
+              />
+            </div>
+            <div class="reservation-form">
+              <label class="label-1" for="people"
+                ><i class="fa-solid fa-people-carry-box icons"></i>People</label
+              >
+              <input
+                class="input-1"
+                type="number"
+                name="text"
+                id="people"
+                required
+              />
+            </div>
+            <div class="reservation-form">
+              <label class="label-1" for="date"
+                ><i class="fa-solid fa-calendar-days icons"></i>Reserved
+                Date</label
+              >
+              <input
+                class="input-1 color"
+                type="date"
+                name="text"
+                id="date"
+                required
+              />
+            </div>
+            <div class="reservation-form">
+              <label class="label-1" for="time"
+                ><i class="fa-solid fa-clock icons"></i>Reserved time</label
+              >
+              <input
+                class="input-1 color"
+                type="time"
+                name="text"
+                id="time"
+                required
+              />
+            </div>
 
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Laboriosam, voluptates nam hic commodi illum sequi consectetur,
-            soluta facere dolorem pariatur nesciunt amet! Voluptas eligendi
-            veritatis cupiditate. Voluptate quia adipisci libero aliquid earum?
-            Rem illo dolorem laborum fugiat facere. Libero in aut architecto
-            explicabo soluta eius omnis laborum quibusdam doloribus sed. Dicta
-            cum eveniet magnam minus molestiae. Inventore doloribus voluptatibus
-            quas deleniti. Illum neque ab, facere nobis accusamus molestias
-            quia? Nemo, nesciunt tempora voluptatem aliquid quisquam placeat
-            saepe impedit rerum. Ex praesentium nemo, dolore illum commodi
-            perspiciatis. Autem expedita sint qui consequuntur minus suscipit,
-            explicabo blanditiis quae, necessitatibus, doloribus tenetur unde.
-          </p>
-        </div>
-        <div class="about-yahoo-col-1">
-          <!-- <img src="./img/15.jpg" alt="" /> -->
-        </div>
-      </div>
-      <!-- ABOUT THE RESTAURANT PAGE //// -->
-
-      <!-- NEWSLETTER -->
-
-      <div class="newsletter">
-        <div class="newsletter-col-0">
-          <h1 class="font-family">Newsletter</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-        </div>
-        <div class="newsletter-col-1">
-          <h1 class="font-family">SUBSCRIBE</h1>
-
-          <form>
-            <label class="label" for="email"
-              ><i class="fa-solid fa-keyboard"></i> &nbsp; Enter Your
-              Email</label
-            >
-            <input class="input" type="email" id="email" required />
             <button type="submit">
-              Subscribe &nbsp; <i class="fa-solid fa-check"></i>
+              Book a table<i class="fa-solid fa-arrow-right icons"></i>
             </button>
           </form>
         </div>
       </div>
-
-      <!-- NEWSLETTER //// -->
+      <!-- RESERVATIONS //// -->
     </div>
-
     <!-- CONTENTS //// -->
 
     <!-- FOOTER -->
@@ -167,7 +183,6 @@
     <!-- FOOTER //// -->
 
     <!-- JAVASCRIPT -->
-
     <script src="./script.js"></script>
     <!-- JAVASCRIPT //// -->
   </body>
