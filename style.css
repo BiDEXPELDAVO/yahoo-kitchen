@@ -599,6 +599,7 @@ footer .footer-col-0 h2 {
  left: 0;
  width: 100%;
  height: 2000px;
+ border: 1px solid black;
 }
 
 .hidden {
@@ -686,11 +687,11 @@ h3 {
 /* BOOK A TABLE */
 
 .reservation {
- border: 1px solid black;
  width: 90%;
  height: 600px;
  margin: 0 auto;
  display: flex;
+ margin-bottom: 30px;
 }
 
 .reservation .reservation-row-0 {
@@ -723,23 +724,29 @@ h3 {
 .reservation .reservation-row-1 form .reservation-form input {
  width: 550px;
  height: 65px;
- margin-left: 30px;
- margin-top: 30px;
  border: 1px solid black;
  border-radius: 20px;
- padding-left: 20px;
+ padding-left: 30px;
 }
 
 .reservation .reservation-row-1 form .reservation-form {
  position: relative;
+ width: min-content;
+ height: min-content;
+ border-radius: 20px;
+ margin-left: 30px;
+ margin-top: 30px;
 }
 
 .reservation .reservation-row-1 form .reservation-form label {
  position: absolute;
- bottom: 20px;
- left: 53px;
+ left: 30px;
  color: rgba(0, 0, 0, 0.7);
- transition: 1s;
+ transition: 0.5s;
+}
+
+.bottom {
+ bottom: 20px;
 }
 
 .reservation .reservation-row-1 form .reservation-form label .icons {
@@ -754,14 +761,32 @@ h3 {
  margin-left: 30px;
  margin-top: 20px;
  width: 200px;
- height: 30px;
+ height: 40px;
  background: gold;
  border-radius: 40px;
  border: transparent;
+ font-weight: 800;
+ font-size: 110%;
+}
+
+.reservation .reservation-row-1 form button .fa-arrow-right {
+ margin-left: 10px;
 }
 
 .color {
  color: transparent;
+}
+
+.size {
+ bottom: 70px;
+}
+
+.font {
+ font-size: 60%;
+}
+
+.font-size {
+ font-size: 100%;
 }
 
 /* BOOK A TABLE //// */
