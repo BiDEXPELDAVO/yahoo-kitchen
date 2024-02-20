@@ -606,3 +606,162 @@ footer .footer-col-0 h2 {
 }
 
 /* ABOUT US PAGE //// */
+
+/* MENU PAGE */
+
+.menu-list {
+ width: 100%;
+ height: 2860px;
+ background: rgb(255, 175, 26);
+ color: white;
+}
+
+.menu-list h1 {
+ text-align: center;
+ flex-basis: 100%;
+ font-size: 300%;
+ padding: 100px 0;
+}
+
+.menu-list h2 {
+ font-size: 190%;
+ margin-top: 20px;
+ margin-left: 50px;
+ text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.menu-list table {
+ margin-left: 50px;
+ margin-top: 100px;
+ float: left;
+ clear: both;
+}
+
+.menu-list table tr th h3 {
+ text-align: left;
+ margin-right: 120px;
+ margin-bottom: 15px;
+ font-size: 130%;
+}
+
+.menu-list table tr th,
+td,
+h3 {
+ font-family: sans-serif;
+ font-weight: 600;
+}
+
+.menu-list .menu-list-row-0 {
+ width: 100%;
+ height: 370px;
+ display: flex;
+ justify-content: center;
+}
+
+.menu-list .menu-list-row-0 .menu-list-row-0-col {
+ flex-basis: 38%;
+ margin: 0 20px;
+ border: 4px solid white;
+ border-radius: 20px;
+}
+
+.menu-list .menu-list-row-1 {
+ width: 100%;
+ height: 670px;
+ margin-top: 60px;
+ display: flex;
+ justify-content: center;
+}
+
+.menu-list .menu-list-row-1 .menu-list-row-1-col {
+ border: 4px solid white;
+ flex-basis: 38%;
+ height: 100%;
+ margin: 0 20px;
+ border-radius: 20px;
+}
+
+/* MENU PAGE //// */
+
+/* BOOK A TABLE */
+
+.reservation {
+ border: 1px solid black;
+ width: 90%;
+ height: 600px;
+ margin: 0 auto;
+ display: flex;
+}
+
+.reservation .reservation-row-0 {
+ flex-basis: 50%;
+ border-radius: 40px;
+ background: url(./img/15.jpg);
+ background-position: center;
+ background-size: cover;
+}
+
+.reservation .reservation-row-1 {
+ flex-basis: 50%;
+}
+
+.reservation .reservation-row-1 h1 {
+ color: green;
+ margin-left: 30px;
+ margin-top: 30px;
+}
+
+.reservation .reservation-row-1 p {
+ font-family: sans-serif;
+ font-weight: 500;
+ font-size: 120%;
+ margin-left: 30px;
+ margin-top: 10px;
+ margin-bottom: -10px;
+}
+
+.reservation .reservation-row-1 form .reservation-form input {
+ width: 550px;
+ height: 65px;
+ margin-left: 30px;
+ margin-top: 30px;
+ border: 1px solid black;
+ border-radius: 20px;
+ padding-left: 20px;
+}
+
+.reservation .reservation-row-1 form .reservation-form {
+ position: relative;
+}
+
+.reservation .reservation-row-1 form .reservation-form label {
+ position: absolute;
+ bottom: 20px;
+ left: 53px;
+ color: rgba(0, 0, 0, 0.7);
+ transition: 1s;
+}
+
+.reservation .reservation-row-1 form .reservation-form label .icons {
+ color: black;
+ font-size: 180%;
+ margin-right: 10px;
+ padding-right: 5px;
+ border-right: 1px solid black;
+}
+
+.reservation .reservation-row-1 form button {
+ margin-left: 30px;
+ margin-top: 20px;
+ width: 200px;
+ height: 30px;
+ background: gold;
+ border-radius: 40px;
+ border: transparent;
+}
+
+.color {
+ color: transparent;
+}
+
+/* BOOK A TABLE //// */
