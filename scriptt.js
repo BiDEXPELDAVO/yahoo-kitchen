@@ -7,19 +7,19 @@ const overlay = document.querySelector(".overlay");
 
 for (let i = 0; i < inputOne.length; i++)
   inputOne[i].addEventListener("click", function () {
-    labelOne[i].classList.toggle("size");
+    labelOne[i].classList.toggle("position");
 
     labelOne[i].classList.toggle("font-size");
     labelOne[i].classList.toggle("font");
 
-    inputOne[i].classList.remove("color");
+    inputOne[i].classList.toggle("color");
     overlay.classList.remove("hidden");
   });
 
 for (let i = 0; i < inputOne.length; i++)
   overlay.addEventListener("click", function () {
     inputOne[i].classList.add("color");
-    labelOne[i].classList.remove("size");
+    labelOne[i].classList.remove("position");
 
     labelOne[i].classList.toggle("font-size");
     labelOne[i].classList.remove("font");
