@@ -30,16 +30,89 @@ for (let i = 0; i < inputOne.length; i++)
 
 // SUPERCOMBO PAGE
 
-const stars = document.querySelectorAll(".fa-star");
+const starOne = document.querySelectorAll(".star-0");
+const starTwo = document.querySelectorAll(".star-1");
+const starThree = document.querySelectorAll(".star-2");
+const starFour = document.querySelectorAll(".star-3");
+const starFive = document.querySelectorAll(".star-4");
+const starSix = document.querySelectorAll(".star-5");
 
-let starsColor = [];
-for (let i = 0; i < stars.length; i++)
-  stars[i].addEventListener("click", function () {
-    starsColor = starsColor + i;
-    if (starsColor >= i) {
-      stars[i].style.color = "gold";
-      console.log("click");
-    }
-  });
+starOne.forEach((star, index1) => {
+  for (let i = 0; i < starOne.length; i++)
+    star.addEventListener("click", function () {
+      starOne.forEach((star, index2) => {
+        if (index1 >= index2) {
+          star.style.color = "gold";
+        } else {
+          star.style.color = "black";
+        }
+      });
+    });
+});
+
+starTwo.forEach((star, index1) => {
+  for (let i = 0; i < starTwo.length; i++)
+    star.addEventListener("click", function () {
+      starTwo.forEach((star, index2) => {
+        if (index1 >= index2) {
+          star.style.color = "gold";
+        } else {
+          star.style.color = "black";
+        }
+      });
+    });
+});
+
+starThree.forEach((star, index1) => {
+  for (let i = 0; i < starThree.length; i++)
+    star.addEventListener("click", function () {
+      starThree.forEach((star, index2) => {
+        if (index1 >= index2) {
+          star.style.color = "gold";
+        } else {
+          star.style.color = "black";
+        }
+      });
+    });
+});
+
+starFour.forEach((star, index1) => {
+  for (let i = 0; i < starFour.length; i++)
+    star.addEventListener("click", function () {
+      starFour.forEach((star, index2) => {
+        if (index1 >= index2) {
+          star.style.color = "gold";
+        } else {
+          star.style.color = "black";
+        }
+      });
+    });
+});
+
+starFive.forEach((star, index1) => {
+  for (let i = 0; i < starFive.length; i++)
+    star.addEventListener("click", function () {
+      starFive.forEach((star, index2) => {
+        if (index1 >= index2) {
+          star.style.color = "gold";
+        } else {
+          star.style.color = "black";
+        }
+      });
+    });
+});
+
+starSix.forEach((star, index1) => {
+  for (let i = 0; i < starSix.length; i++)
+    star.addEventListener("click", function () {
+      starSix.forEach((star, index2) => {
+        if (index1 >= index2) {
+          star.style.color = "gold";
+        } else {
+          star.style.color = "black";
+        }
+      });
+    });
+});
 
 // SUPERCOMBO PAGE ////
