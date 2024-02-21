@@ -790,3 +790,109 @@ h3 {
 }
 
 /* BOOK A TABLE //// */
+
+/* SUPERCOMBO PAGE */
+
+.supercombo-view {
+ width: 100%;
+ height: 300px;
+ background: url(./img/17.JPG);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ margin-bottom: 100px;
+}
+
+.supercombo-grid {
+ width: 100%;
+ height: 1800px;
+ margin-bottom: 90px;
+}
+
+.supercombo-grid .supercombo-grid-row {
+ width: 80%;
+ height: 570px;
+ margin: 0 auto;
+ margin-bottom: 40px;
+ display: flex;
+ justify-content: center;
+}
+
+.supercombo-grid .supercombo-grid-row .supercombo-grid-col-0 {
+ flex-basis: 48%;
+ border: 2px solid black;
+ border-radius: 30px;
+ margin-right: 2%;
+}
+
+.supercombo-grid .supercombo-grid-row .supercombo-grid-col-1 {
+ flex-basis: 48%;
+ border: 2px solid black;
+ border-radius: 30px;
+ margin-left: 2%;
+}
+
+.supercombo-grid .supercombo-grid-row .img {
+ width: 95%;
+ height: 65%;
+ margin: 10px auto;
+ border-radius: 30px;
+}
+
+.supercombo-grid .supercombo-grid-row .img-0 {
+ background: url(./img/18.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.supercombo-grid .supercombo-grid-row .img-1 {
+ background: url(./img/18.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.supercombo-grid .supercombo-grid-row .img-2 {
+ background: url(./img/18.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.supercombo-grid .supercombo-grid-row .img-3 {
+ background: url(./img/18.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.supercombo-grid .supercombo-grid-row .img-4 {
+ background: url(./img/18.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.supercombo-grid .supercombo-grid-row .img-5 {
+ background: url(./img/18.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.supercombo-grid .supercombo-grid-row .stars {
+ margin-left: 40px;
+ margin-top: 30px;
+}
+
+.supercombo-grid .supercombo-grid-row .stars .fa-star {
+ color: black;
+}
+
+.supercombo-grid .supercombo-grid-row h1 {
+ margin-left: 40px;
+ margin-top: 20px;
+}
+
+.supercombo-grid .supercombo-grid-row h2 {
+ margin-left: 40px;
+ color: green;
+ font-size: 180%;
+}
+
+/* SUPERCOMBO PAGE //// */
