@@ -3,7 +3,6 @@
 const labelOne = document.querySelectorAll(".label-1");
 const inputOne = document.querySelectorAll(".input-1");
 const overlay = document.querySelector(".overlay");
-// ////BOOK A TABLE PAGE
 
 for (let i = 0; i < inputOne.length; i++)
   inputOne[i].addEventListener("click", function () {
@@ -26,3 +25,21 @@ for (let i = 0; i < inputOne.length; i++)
 
     overlay.classList.add("hidden");
   });
+
+// ////BOOK A TABLE PAGE
+
+// SUPERCOMBO PAGE
+
+const stars = document.querySelectorAll(".fa-star");
+
+let starsColor = [];
+for (let i = 0; i < stars.length; i++)
+  stars[i].addEventListener("click", function () {
+    starsColor = starsColor + i;
+    if (starsColor >= i) {
+      stars[i].style.color = "gold";
+      console.log("click");
+    }
+  });
+
+// SUPERCOMBO PAGE ////
