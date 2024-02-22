@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>about yahoo kitchen</title>
+    <title>contact us</title>
 
     <!-- LINKS -->
-
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css" />
     <link
@@ -16,6 +15,7 @@
 
     <!-- LINKS //// -->
   </head>
+
   <body>
     <!-- HEADER -->
 
@@ -31,7 +31,7 @@
           <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About Us</a></li>
           <li><a href="./menu.html">Menu</a></li>
-          <!-- <li><a href="#">Menu</a></li> -->
+          <!-- <li><a href="#">Gallery</a></li> -->
           <li><a href="./bookatable.html">Book a table</a></li>
           <li><a href="./supercombo.html">Super Combo</a></li>
           <li><a href="./contactus.html">Contact Us</a></li>
@@ -43,8 +43,8 @@
 
       <!-- ORDER NOW -->
 
-      <div class="order">
-        <h2 class="font-family">ORDER</h2>
+      <div class="order font-family">
+        <h2>ORDER</h2>
         <h2>NOW</h2>
       </div>
 
@@ -63,68 +63,42 @@
 
     <!-- CONTENTS -->
 
+    <!-- CONTACT VIEW -->
     <div class="contents">
-      <div class="overlay hidden"></div>
-      <!-- VIEW OF THE ABOUT US PAGE -->
+      <div class="contactus-view"></div>
 
-      <div class="about-us-view">
-        <!-- <img src="./img/14.jpg" alt="" /> -->
-      </div>
+      <!-- CONTACT VIEW //// -->
 
-      <!-- VIEW OF THE ABOUT US PAGE -->
+      <!-- CONTACT  -->
 
-      <!-- ABOUT THE RESTAURANT PAGE -->
-
-      <div class="about-yahoo">
-        <div class="about-yahoo-col-0">
-          <h1 class="font-family">About Us</h1>
-
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Laboriosam, voluptates nam hic commodi illum sequi consectetur,
-            soluta facere dolorem pariatur nesciunt amet! Voluptas eligendi
-            veritatis cupiditate. Voluptate quia adipisci libero aliquid earum?
-            Rem illo dolorem laborum fugiat facere. Libero in aut architecto
-            explicabo soluta eius omnis laborum quibusdam doloribus sed. Dicta
-            cum eveniet magnam minus molestiae. Inventore doloribus voluptatibus
-            quas deleniti. Illum neque ab, facere nobis accusamus molestias
-            quia? Nemo, nesciunt tempora voluptatem aliquid quisquam placeat
-            saepe impedit rerum. Ex praesentium nemo, dolore illum commodi
-            perspiciatis. Autem expedita sint qui consequuntur minus suscipit,
-            explicabo blanditiis quae, necessitatibus, doloribus tenetur unde.
-          </p>
+      <div class="contact-map-form">
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18077.19051365811!2d3.444520414743958!3d6.813265821392958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1708602052789!5m2!1sen!2sng"
+          ></iframe>
         </div>
-        <div class="about-yahoo-col-1">
-          <!-- <img src="./img/15.jpg" alt="" /> -->
-        </div>
-      </div>
-      <!-- ABOUT THE RESTAURANT PAGE //// -->
-
-      <!-- NEWSLETTER -->
-
-      <div class="newsletter">
-        <div class="newsletter-col-0">
-          <h1 class="font-family">Newsletter</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-        </div>
-        <div class="newsletter-col-1">
-          <h1 class="font-family">SUBSCRIBE</h1>
-
-          <form>
-            <label class="label" for="email"
-              ><i class="fa-solid fa-keyboard"></i> &nbsp; Enter Your
-              Email</label
-            >
-            <input class="input" type="email" id="email" required />
-            <button type="submit">
-              Subscribe &nbsp; <i class="fa-solid fa-check"></i>
-            </button>
+        <div class="contact-form">
+          <h1 class="font-family">Send Us a Message</h1>
+          <form action="">
+            <div class="contact-form-col">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="contact-form-col">
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="contact-form-col">
+              <input type="tel" placeholder="Telephone" required />
+            </div>
+            <div class="contact-form-col">
+              <textarea name="text" placeholder="Comment" rows="5"></textarea>
+              <button type="submit">Submit</button>
+            </div>
           </form>
         </div>
       </div>
-
-      <!-- NEWSLETTER //// -->
     </div>
+
+    <!-- CONTACT //// -->
 
     <!-- CONTENTS //// -->
 
@@ -165,10 +139,5 @@
     </footer>
 
     <!-- FOOTER //// -->
-
-    <!-- JAVASCRIPT -->
-
-    <script src="./script.js"></script>
-    <!-- JAVASCRIPT //// -->
   </body>
 </html>
